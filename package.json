@@ -20,7 +20,11 @@
   "author": "Pablo Giraud-Carrier",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^7.31.0"
+    "eslint": "^7.31.0",
+    "eslint-plugin-hooks": "^0.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1"
   },
   "bugs": {
     "url": "https://github.com/GETYUGO/eslint-config/issues"
