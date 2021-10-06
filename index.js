@@ -4,6 +4,11 @@ module.exports = {
     es6: true,
     node: true,
   },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   extends: [
     'airbnb',
     'eslint:recommended',
@@ -16,11 +21,6 @@ module.exports = {
     XMLHttpRequest: true,
     FormData: true,
   },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
   parser: '@babel/eslint-parser',
   plugins: [
     'react',
@@ -31,6 +31,9 @@ module.exports = {
       node: {
         extensions: ['.js', '.web.js', '.ios.js', '.android.js', '.ts', '.tsx'],
       },
+    },
+    react: {
+      version: 'detect',
     },
   },
   rules: {
@@ -54,9 +57,6 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       files: ['*.ts', '*.tsx'],
       parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
         project: ['./tsconfig.json'],
       },
       extends: [
@@ -77,6 +77,9 @@ module.exports = {
             extensions: ['.ts', '.web.js', '.ios.tsx', '.android.tsx', '.tsx', '.js', '.jsx', '.json'],
           },
         },
+        react: {
+          version: 'detect',
+        },    
       },
       rules: {
         'no-multi-spaces': [2, { ignoreEOLComments: true, exceptions: { VariableDeclarator: true } }],

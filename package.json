@@ -1,5 +1,5 @@
 {
-  "name": "@yego/react-eslint",
+  "name": "@rideyego/react-eslint",
   "version": "1.0.0",
   "description": "eslint file for react and react-native projects",
   "main": "index.js",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "eslint",
+    "eslintconfig",
     "react",
     "react-native",
     "typescript"
