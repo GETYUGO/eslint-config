@@ -1,0 +1,25 @@
+{
+  "name": "@yego/react-eslint",
+  "version": "1.0.0",
+  "description": "eslint file for react and react-native projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GETYUGO/react-eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "react-native",
+    "typescript"
+  ],
+  "author": "Pablo Giraud-Carrier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GETYUGO/react-eslint/issues"
+  },
+  "homepage": "https://github.com/GETYUGO/react-eslint#readme"
+}
