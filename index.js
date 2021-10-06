@@ -109,7 +109,6 @@ module.exports = {
             'useRef',
             'useNavigation',
             'useRoute',
-            'usePrevious',
             'useMemo',
             'useEffect',
             'useCallback',
