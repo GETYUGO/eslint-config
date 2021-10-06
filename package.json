@@ -19,6 +19,9 @@
   ],
   "author": "Pablo Giraud-Carrier",
   "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^7.31.0"
+  },
   "bugs": {
     "url": "https://github.com/GETYUGO/react-eslint/issues"
   },

@@ -13,7 +13,7 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 
 ```json
 {
-  "extends": "@react-native-community"
+  "extends": "@rideyego/react-eslint"
 }
 ```
 
