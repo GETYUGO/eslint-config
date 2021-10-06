@@ -1,6 +1,6 @@
 {
-  "name": "@rideyego/react-eslint",
-  "version": "1.0.0",
+  "name": "@rideyego/eslint-config",
+  "version": "1.0.1",
   "description": "eslint file for react and react-native projects",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GETYUGO/react-eslint.git"
+    "url": "git+https://github.com/GETYUGO/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -23,7 +23,7 @@
     "eslint": "^7.31.0"
   },
   "bugs": {
-    "url": "https://github.com/GETYUGO/react-eslint/issues"
+    "url": "https://github.com/GETYUGO/eslint-config/issues"
   },
-  "homepage": "https://github.com/GETYUGO/react-eslint#readme"
+  "homepage": "https://github.com/GETYUGO/eslint-config#readme"
 }
