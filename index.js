@@ -29,7 +29,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.web.js', '.ios.js', '.android.js', '.ts', '.tsx'],
+        extensions: ['.js', '.web.js', '.ios.js', '.android.js', '.ts', '.tsx', '.jsx'],
       },
     },
     react: {
@@ -50,7 +50,7 @@ module.exports = {
     'no-plusplus': 0,
     'jsx-a11y/accessible-emoji': 0,
     eqeqeq: [1, 'smart'],
-    'import/extensions': [1, { js: 'never', ts: 'never', jsx: 'never' }],
+    'import/extensions': [1, { js: 'never', ts: 'never'}],
   },
   overrides: [
     {
