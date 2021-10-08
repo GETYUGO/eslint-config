@@ -50,7 +50,7 @@ module.exports = {
     'no-plusplus': 0,
     'jsx-a11y/accessible-emoji': 0,
     eqeqeq: [1, 'smart'],
-    'import/extensions': [1, { js: 'never', ts: 'never' }],
+    'import/extensions': [1, { js: 'never', ts: 'never', jsx: 'never' }],
   },
   overrides: [
     {
