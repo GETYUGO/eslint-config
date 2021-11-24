@@ -104,6 +104,7 @@ module.exports = {
         'hooks/sort': [2, {
           groups: [
             'useSelector',
+            'useContext',
             'useState',
             'useDispatch',
             'useRef',
