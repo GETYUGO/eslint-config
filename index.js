@@ -51,6 +51,8 @@ module.exports = {
     'jsx-a11y/accessible-emoji': 0,
     eqeqeq: [1, 'smart'],
     'import/extensions': [1, { js: 'never', ts: 'never'}],
+    'react/function-component-definition': [2, { namedComponents: 'arrow-function', unamedComponents: '' }],
+    'import/no-relative-packages': 0,
   },
   overrides: [
     {
@@ -114,6 +116,8 @@ module.exports = {
             'useCallback',
           ],
         }],
+        'react/function-component-definition': [1, { namedComponents: 'arrow-function', unamedComponents: '' }],
+        'import/no-relative-packages': 0,
       },
     },
   ],
