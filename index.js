@@ -118,6 +118,8 @@ module.exports = {
         }],
         'react/function-component-definition': [1, { namedComponents: 'arrow-function', unamedComponents: '' }],
         'import/no-relative-packages': 0,
+        'no-shadow': 0,
+        '@typescript-eslint/no-shadow': 1,
       },
     },
   ],
