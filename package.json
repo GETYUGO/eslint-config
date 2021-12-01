@@ -1,6 +1,6 @@
 {
   "name": "@rideyego/eslint-config",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "eslint file for react and react-native projects",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
   "license": "ISC",
   "peerDependencies": {
     "eslint": "^8.3.0",
-    "eslint-plugin-hooks": "^0.4.1",
     "eslint-config-airbnb": "^19.0.1",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0"
