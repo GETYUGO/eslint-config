@@ -4,10 +4,16 @@ module.exports = {
     es6: true,
     node: true,
   },
+  parser: '@babel/eslint-parser',
   parserOptions: {
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
+    requireConfigFile: false,
   },
   extends: [
     'airbnb',
@@ -21,7 +27,6 @@ module.exports = {
     XMLHttpRequest: true,
     FormData: true,
   },
-  parser: '@babel/eslint-parser',
   plugins: [
     'react',
     'react-hooks',
