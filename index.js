@@ -57,7 +57,7 @@ module.exports = {
   overrides: [
     {
       parser: '@typescript-eslint/parser',
-      files: ['*.ts', '*.tsx'],
+      files: ['*.d.ts', '*.ts', '*.tsx'],
       parserOptions: {
         project: ['./tsconfig.json'],
       },
