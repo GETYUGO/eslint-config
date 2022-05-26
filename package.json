@@ -1,6 +1,6 @@
 {
   "name": "@rideyego/eslint-config",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "eslint file for react and react-native projects",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,10 @@
   "author": "Pablo Giraud-Carrier",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-config-airbnb": "^19.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0"
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.24.0",
+    "@typescript-eslint/parser": "^5.24.0"
   },
   "bugs": {
     "url": "https://github.com/GETYUGO/eslint-config/issues"
