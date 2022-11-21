@@ -5,11 +5,14 @@ module.exports = {
     node: true,
   },
   extends: [
-    'eslint:recommended',
+    'plugin:react/recommended',
     'airbnb',
     'airbnb/hooks',
     'airbnb-typescript'
   ],
+  parserOptions: {
+    project: ['./tsconfig.json'],
+  },
   plugins: [
     'react',
     'react-hooks',
@@ -33,17 +36,4 @@ module.exports = {
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
   },
-  overrides: [
-    {
-      parserOptions: {
-        project: ['./tsconfig.json'],
-      },
-      extends: [
-        'airbnb',
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-      ],
-    },
-  ],
 };
