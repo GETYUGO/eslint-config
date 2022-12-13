@@ -2,14 +2,6 @@
   "name": "@rideyego/eslint-config",
   "version": "1.1.2",
   "description": "eslint file for react and react-native projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GETYUGO/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -17,21 +9,30 @@
     "react-native",
     "typescript"
   ],
-  "author": "Pablo Giraud-Carrier",
+  "homepage": "https://github.com/GETYUGO/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/GETYUGO/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GETYUGO/eslint-config.git"
+  },
   "license": "ISC",
+  "author": "Pablo Giraud-Carrier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.28.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0"
-  },
-  "bugs": {
-    "url": "https://github.com/GETYUGO/eslint-config/issues"
-  },
-  "homepage": "https://github.com/GETYUGO/eslint-config#readme"
+  }
 }
