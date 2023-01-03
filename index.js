@@ -113,7 +113,8 @@ module.exports = {
         '@typescript-eslint/no-shadow': 1,
         'function-paren-newline': 0,
         // ROADMAP
-        'react-hooks/exhaustive-deps': 0
+        'react-hooks/exhaustive-deps': 0,
+        '@typescript-eslint/no-use-before-define': 0
       },
     },
   ],
