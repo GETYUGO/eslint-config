@@ -55,40 +55,38 @@ module.exports = {
     'no-plusplus': 0,
     'jsx-a11y/accessible-emoji': 0,
     eqeqeq: [1, 'smart'],
-    'import/extensions': [1, { js: 'never', ts: 'never'}],
+    'import/extensions': [1, { js: 'never', ts: 'never' }],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function', unamedComponents: '' }],
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
   },
   overrides: [
     {
+      env: {
+        browser: true,
+        es2021: true,
+        node: true,
+      },
       parser: '@typescript-eslint/parser',
       files: ['*.d.ts', '*.ts', '*.tsx'],
       parserOptions: {
         project: ['./tsconfig.json'],
+        ecmaFeatures: {
+          jsx: true
+        }
       },
       extends: [
         'airbnb',
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'airbnb/hooks',
+        'airbnb-typescript',
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        'plugin:react-hooks/recommended'
       ],
       plugins: [
-        '@typescript-eslint',
-        'react',
-        'react-hooks',
-        'hooks',
+        'react'
       ],
-      settings: {
-        'import/resolver': {
-          node: {
-            extensions: ['.ts', '.web.js', '.ios.tsx', '.android.tsx', '.tsx', '.js', '.jsx', '.json'],
-          },
-        },
-        react: {
-          version: 'detect',
-        },    
-      },
       rules: {
         'no-multi-spaces': [2, { ignoreEOLComments: true, exceptions: { VariableDeclarator: true } }],
         'no-console': 0,
@@ -109,24 +107,14 @@ module.exports = {
         '@typescript-eslint/restrict-template-expressions': [2, { allowBoolean: true, allowAny: true, allowNullish: true }],
         indent: 'off',
         '@typescript-eslint/indent': ['error', 2],
-        // 'hooks/sort': [2, {
-        //   groups: [
-        //     'useSelector',
-        //     'useContext',
-        //     'useState',
-        //     'useDispatch',
-        //     'useRef',
-        //     'useNavigation',
-        //     'useRoute',
-        //     'useMemo',
-        //     'useCallback',
-        //   ],
-        // }],
         'react/function-component-definition': [1, { namedComponents: 'arrow-function', unamedComponents: '' }],
         'import/no-relative-packages': 0,
         'no-shadow': 0,
         '@typescript-eslint/no-shadow': 1,
         'function-paren-newline': 0,
+        // ROADMAP
+        'react-hooks/exhaustive-deps': 0,
+        '@typescript-eslint/no-use-before-define': 0
       },
     },
   ],
