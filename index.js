@@ -59,6 +59,7 @@ module.exports = {
     'react/function-component-definition': [2, { namedComponents: 'arrow-function', unamedComponents: '' }],
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
+    indent: ['errpr', 2],
   },
   overrides: [
     {
@@ -105,7 +106,6 @@ module.exports = {
         '@typescript-eslint/no-namespace': 0,
         'react/prop-types': 0,
         '@typescript-eslint/restrict-template-expressions': [2, { allowBoolean: true, allowAny: true, allowNullish: true }],
-        indent: 'off',
         '@typescript-eslint/indent': ['error', 2],
         'react/function-component-definition': [1, { namedComponents: 'arrow-function', unamedComponents: '' }],
         'import/no-relative-packages': 0,
