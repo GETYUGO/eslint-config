@@ -59,7 +59,7 @@ module.exports = {
     'react/function-component-definition': [2, { namedComponents: 'arrow-function', unamedComponents: '' }],
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
-    indent: ['errpr', 2],
+    indent: ['error', 2],
   },
   overrides: [
     {
