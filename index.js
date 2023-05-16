@@ -48,7 +48,12 @@ module.exports = {
     'no-use-before-define': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'import/no-extraneous-dependencies': ['error', { packageDir: './' }],
-    'padding-line-between-statements': [2, { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' }, { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] }],
+    'padding-line-between-statements': [
+      2,
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+      { blankLine: "always", prev: ["case", "default"], next: "*" },
+    ],
     'no-multiple-empty-lines': [2, { max: 1 }],
     'react/destructuring-assignment': 0,
     'no-bitwise': 0,
@@ -59,7 +64,8 @@ module.exports = {
     'react/function-component-definition': [2, { namedComponents: 'arrow-function', unamedComponents: '' }],
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
+    'no-floating-promises': [1, { ignoreVoid: false }],
   },
   overrides: [
     {
@@ -94,7 +100,12 @@ module.exports = {
         'no-use-before-define': 'off',
         'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
         'import/no-extraneous-dependencies': ['error', { packageDir: './' }],
-        'padding-line-between-statements': [2, { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' }, { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] }],
+        'padding-line-between-statements': [
+          2,
+          { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+          { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+          { blankLine: "always", prev: ["case", "default"], next: "*" },
+        ],
         'no-multiple-empty-lines': [2, { max: 1 }],
         'react/destructuring-assignment': 0,
         'no-bitwise': 0,
