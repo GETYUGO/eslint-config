@@ -52,7 +52,6 @@ module.exports = {
       2,
       { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
       { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
-      { blankLine: "always", prev: ["case", "default"], next: "*" },
     ],
     'no-multiple-empty-lines': [2, { max: 1 }],
     'react/destructuring-assignment': 0,
@@ -65,7 +64,6 @@ module.exports = {
     'import/no-relative-packages': 0,
     'function-paren-newline': 0,
     indent: ['error', 2, { SwitchCase: 1 }],
-    'no-floating-promises': [1, { ignoreVoid: false }],
   },
   overrides: [
     {
@@ -104,8 +102,6 @@ module.exports = {
           2,
           { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
           { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
-          { blankLine: "always", prev: ["case", "default"], next: "*" },
-          { blankLine: "any", prev: ["case", "default"], next: ["case", "default"] },
         ],
         'no-multiple-empty-lines': [2, { max: 1 }],
         'react/destructuring-assignment': 0,
