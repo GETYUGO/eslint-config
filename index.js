@@ -75,7 +75,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       files: ['*.d.ts', '*.ts', '*.tsx'],
       parserOptions: {
-        project: ['./tsconfig.json'],
+        project: true,
         ecmaFeatures: {
           jsx: true
         }
@@ -84,9 +84,8 @@ module.exports = {
         'airbnb',
         'airbnb/hooks',
         'airbnb-typescript',
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        'plugin:@typescript-eslint/recommended-type-checked',
+        'plugin:@typescript-eslint/stylistic-type-checked',
         'plugin:react-hooks/recommended'
       ],
       plugins: [
