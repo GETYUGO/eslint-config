@@ -1,6 +1,6 @@
 {
   "name": "@rideyego/eslint-config",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "eslint file for react and react-native projects",
   "keywords": [
     "eslint",
